@@ -64,6 +64,8 @@ stat_analysis/
 
 > 体积约 200 MB 属于正常现象（单文件模式已内嵌 Python 解释器、pandas、matplotlib 等）。
 
+操作步骤、数据格式要求与统计口径见 [使用说明.docx](使用说明.docx)（Word 版，含表头要求与常见问题）。
+
 ### 方式二：从源码运行
 
 ```powershell
