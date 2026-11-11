@@ -1,0 +1,21 @@
+# 统一换行符，避免 Windows 与 Linux 之间的 CRLF 噪声
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+*.spec text eol=lf
+*.ps1  text eol=crlf
+*.bat  text eol=crlf
+
+# 二进制文件
+*.docx  binary
+*.xlsx  binary
+*.pptx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.exe   binary
+*.ico   binary

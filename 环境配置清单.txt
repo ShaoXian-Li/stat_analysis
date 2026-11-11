@@ -1,0 +1,20 @@
+# 环境与依赖速查
+
+> 完整说明见 [README.md](../README.md) 与 [使用说明.docx](../使用说明.docx)。
+
+- **Python**：3.10 ~ 3.12（推荐 3.12，当前验证环境为 3.10 与 3.12）
+- **运行依赖**：见 [requirements.txt](../requirements.txt)
+  - pandas、numpy、matplotlib、scipy、python-docx、openpyxl
+- **可选依赖**：geopandas —— 仅用于生成"就业单位所在地中国地图"热力图，缺失时程序自动跳过该图
+- **打包依赖**：pyinstaller —— 仅打包 exe 时需要，运行程序本身不需要
+
+程序使用的标准库：os、sys、re、math、argparse、uuid、tempfile、traceback、datetime、typing、tkinter
+
+安装命令：
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+pip install pyinstaller   # 仅在需要打包 exe 时
+```
