@@ -60,7 +60,7 @@ stat_analysis/
 
 ### 方式一：直接使用打包好的 exe
 
-在仓库的 [Releases](../../releases) 页面下载 `就业质量报告生成器.exe` 与 `就业变化趋势分析器.exe`，双击即可运行，无需安装 Python。
+在仓库的 [Releases](../../releases) 页面下载发布包（`default.zip`，约 500 MB），解压后得到 `就业质量报告生成器.exe` 与 `就业变化趋势分析器.exe`，双击即可运行，无需安装 Python。
 
 > 体积约 200 MB 属于正常现象（单文件模式已内嵌 Python 解释器、pandas、matplotlib 等）。
 
